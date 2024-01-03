@@ -1,0 +1,87 @@
+@media only screen and (min-width: 1400px ) {
+    body {
+        width: 50%;
+    }
+}
+
+html {
+    background-image: linear-gradient(to left, #e6e14c, #fffc9b);
+}
+
+body {
+    padding: 1em;
+    margin: 0 auto;
+}
+
+a:visited {
+    color: #86bb3b;
+}
+
+a:hover {
+    color: #59920e;
+}
+
+.mycenter {
+    text-align: center;
+}
+
+.navigation {
+    display: inline-block;
+    /*margin: 0 auto;*/
+}
+
+.navigation ul li {
+    font-variant: small-caps;
+    font-size: 2.5em;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 0.25em 0.25em;
+}
+
+.clear {
+    clear: both;
+}
+
+p { font-size: 1.5em; text-align: justify; font-family: sans-serif; }
+h1 {
+    font-size: 3.5em;
+    color: #59920e;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #59920e;
+}
+
+.myletters {
+    letter-spacing: 5px;
+}
+
+.mykursiv {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.myinline {
+    display: inline-block;
+    margin-left: 0;
+    padding-left: 0;
+    /*margin: 0 auto;*/
+}
+
+.myinline li {
+    font-size: 1.8em;
+    float: left;
+    text-indent: -0.3em;
+    margin-right: 1em;
+}
+
+.myfloatingimage {
+    float:right;
+}
+
+.myfloatingimage img {
+    margin-left: 3em;
+    zoom: 75%;
+}
